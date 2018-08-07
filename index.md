@@ -1,5 +1,14 @@
-# Charles Giessen's Portfolio 
+Hello! 
+I am a Software Engineer interested in programming and computer graphics. Currently I am a Senior Computer Science student at the University of Tulsa. 
 
+
+## Contact info
+
+Email - cdgiessen@gmail.com
+
+My gihub page - ![Github](https://github.com/cdgiessen)
+
+Linkedin - ![LinkedIn](https://www.linkedin.com/in/charles-giessen-22976411a/)
 
 ## Projects
 
