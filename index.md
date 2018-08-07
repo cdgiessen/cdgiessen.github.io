@@ -1,5 +1,5 @@
 ---
-title: main page
+title: homepage
 ---
 Hello! 
 
