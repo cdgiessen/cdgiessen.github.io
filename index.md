@@ -1,3 +1,6 @@
+---
+title: main page
+---
 Hello! 
 
 I am a Software Engineer interested in programming and computer graphics. Currently I am a Senior Computer Science student at the University of Tulsa. 
