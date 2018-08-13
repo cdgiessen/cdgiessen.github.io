@@ -3,12 +3,14 @@ title: homepage
 ---
 Hello! 
 
-I am a Software Engineer interested in programming and computer graphics. Currently I am a Senior Computer Science student at the University of Tulsa. 
+I am Charles Giessen, a Software Engineer focused on system programming and computer graphics. 
+Currently I'm a senior Computer Science student at the University of Tulsa. 
+I enjoy getting into the nitty-gritty details of the gpu's, high performance software, and making code fast.
 
 
 ## Contact info
 
-cdgiessen@gmail.com
+Email: cdgiessen@gmail.com
 
 [Github](https://github.com/cdgiessen)
 
@@ -43,6 +45,7 @@ cdgiessen@gmail.com
  * Implemented inside my Vulkan Game Engine
  * Written in C++17
  * [Source](https://github.com/cdgiessen/VulkanRenderer/tree/master/src/gui)
+ * Video of editing of terrain node graph [Link](https://youtu.be/8lODQWFqSZU)
  
  ![Node Graph](/images/Siggraph_node_graph.jpg)
  
@@ -66,7 +69,7 @@ cdgiessen@gmail.com
  
 ### USGS Survey Data FPS Viewer
  * Loads and lets users walk around a USGS Survey Data file
- * Sample data is of Mt. Saint Helens
+ * Sample data is of Mt. St Helens
  * Uses OpenGL 3.3, GLFW, and GLEW
  * Written in C++11
  * [Source](https://github.com/cdgiessen/TerrainExplorer)
@@ -79,6 +82,11 @@ cdgiessen@gmail.com
  * Procedural created lunar surface in RollerCoaster Tycoon 2 style
  ![Project Luna](/images/ProjectLuna_RC2_style.jpg)
 
+### Various High Performance Computing projects
+ * MPI, OpenMP, pthreads
+ * Simple projects, served to learn basic API concepts and hpc programming practices.
+ * Developed to run on the 100 node Tandy Supercomputer (no longer in operation)  
+ [Source](https://github.com/cdgiessen/HighPerformanceProgrammingProjects)
 
 ### USGS Survey Data Visualizer
  * Loads and displays a USGS Survey data file
@@ -95,11 +103,15 @@ cdgiessen@gmail.com
  * Walkable planet
  * Written in C# & Unity3d
  * [Source](https://github.com/cdgiessen/InnerEarth)
+ 
+ * Wireframe outline of icosohedron & subdivisions
  ![Icosohedron](/images/SubdividingIcosohedron.jpg)
+ 
+ * Youtube Video of WIP version [Link](https://youtu.be/gXtS96FRIDQ)
 
 ### Contour Line Visualizer
  * Creates a contour map of a USGS Survey Data File
- * Sample data is of Mt. Saint Helens
+ * Sample data is of Mt. St Helens
  * Written in C++11
  * [Source](https://github.com/cdgiessen/ContourLines)
 
