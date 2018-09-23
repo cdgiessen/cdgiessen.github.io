@@ -3,9 +3,9 @@ title: homepage
 ---
 Hello! 
 
-I am Charles Giessen, a Software Engineer focused on system programming and computer graphics. 
+I am Charles Giessen, a Software Engineer focused on systems programming and computer graphics. 
 Currently I'm a senior Computer Science student at the University of Tulsa. 
-I enjoy getting into the nitty-gritty details of the gpu's, high performance software, and making code fast.
+I enjoy getting into the nitty-gritty details, high performance software, and making code fast.
 
 
 ## Contact info
@@ -175,6 +175,8 @@ Draws a Koch Snowflake fractal
 Written in C++
 
 -- [Source](https://github.com/cdgiessen/KochSnowflake) --
+
+![Snowflake](/images/KochSnowflake.png)
 
 ### PollPoll: Hackathon Project
 Scrapes webdata of congresional voting for comparison
