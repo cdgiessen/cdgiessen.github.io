@@ -61,7 +61,6 @@ Tokenizer is working; Parsing, AST generation, and LLVM integration for code gen
 
 -- [Source](/https://github.com/cdgiessen/pascal-compiler) --
 
-=======
 ### Procedural Terrain Generator
  * Create infinite terrain 
  * Features a node based visual graph editor to create unique terrain algorithms
@@ -83,7 +82,7 @@ Cumulative project for the Game Engine Design course. C++11 and is OpenGL 4.0 ba
 
 -- [Source](https://github.com/cdgiessen/OrangeSherbetGameEngine) -- 
  
-Screenshot of exmple scene
+Screenshot of exmaple scene
  ![OSGE](/images/OSGE_lighting.jpg)
 
 
@@ -110,6 +109,7 @@ Written in C++11
 -- [Source](https://github.com/cdgiessen/TerrainExplorer) --
  
  ![FPS cinematic](/images/TerrainFPS_cinematic.jpg)
+
  ![FPS overhead](/images/TerrainFPS_overhead.jpg)
 
 ### Project Luna
@@ -118,6 +118,8 @@ Unity 3d based RTS style colony builder
 Procedural created lunar surface in RollerCoaster Tycoon 2 style
 
 -- [Source](https://github.com/cdgiessen/project-luna) --
+
+ ![Project Luna](/images/ImportedModels.jpg)
 
  ![Project Luna](/images/ProjectLuna_RC2_style.jpg)
 
