@@ -12,7 +12,7 @@ I enjoy getting into the nitty-gritty details, high performance software, and ma
 
 Email: cdgiessen@gmail.com
 
-[Resume](https://docs.google.com/document/d/e/2PACX-1vT4mQric5vtSAWnsF_KnIaMveJqtV-d-VtADoXnIZKP-VlVXj8u5UAhoa8ceecBEeuaBwBbHCqkTWps/pub)
+[Resume](Resume_Charles_Giessen.pdf)
 
 [Github](https://github.com/cdgiessen)
 
@@ -27,7 +27,7 @@ Designed around the new Vulkan graphics API. C++17. A testing ground for learnin
 ##### Major Features:
 * Terrain Renderer​: Heightmap based with automatic level of detail adjustment using a Quadtree and Memory pool for quick allocation.
 
-* Procedural Noise Texture Generator​: Lets users create noise textures in a visual node graph editor and uses SIMD acceleration for caclulation.
+* Procedural Noise Texture Generator​: Lets users create noise textures in a visual node graph editor and uses SIMD acceleration for calculation.
 
 * Cross platform - CMake based, with both Windows and Linux Support​. Tested with both gcc and msvc.
 
@@ -60,16 +60,6 @@ The parsing method employed is Recusive Descent parsing.
 Tokenizer is working; Parsing, AST generation, and LLVM integration for code gen in progress.
 
 -- [Source](/https://github.com/cdgiessen/pascal-compiler) --
-
-### Procedural Terrain Generator
- * Create infinite terrain 
- * Features a node based visual graph editor to create unique terrain algorithms
- * Implemented inside my Vulkan Game Engine
- * Written in C++17
- * [Source](https://github.com/cdgiessen/VulkanRenderer/tree/master/src/gui)
- * Video of editing of terrain node graph [Link](https://youtu.be/8lODQWFqSZU)
- 
- ![Node Graph](/images/Siggraph_node_graph.jpg)
  
 ### Orange Sherbet Game Engine
 Cumulative project for the Game Engine Design course. C++11 and is OpenGL 4.0 based.
