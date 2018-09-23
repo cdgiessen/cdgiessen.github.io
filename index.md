@@ -3,7 +3,9 @@ title: homepage
 ---
 Hello! 
 
-I am a Software Engineer interested in programming and computer graphics. Currently I am a Senior Computer Science student at the University of Tulsa. 
+I am Charles Giessen, a Software Engineer focused on system programming and computer graphics. 
+Currently I'm a senior Computer Science student at the University of Tulsa. 
+I enjoy getting into the nitty-gritty details of the gpu's, high performance software, and making code fast.
 
 
 ## Contact info
@@ -59,6 +61,17 @@ Tokenizer is working; Parsing, AST generation, and LLVM integration for code gen
 
 -- [Source](/https://github.com/cdgiessen/pascal-compiler) --
 
+=======
+### Procedural Terrain Generator
+ * Create infinite terrain 
+ * Features a node based visual graph editor to create unique terrain algorithms
+ * Implemented inside my Vulkan Game Engine
+ * Written in C++17
+ * [Source](https://github.com/cdgiessen/VulkanRenderer/tree/master/src/gui)
+ * Video of editing of terrain node graph [Link](https://youtu.be/8lODQWFqSZU)
+ 
+ ![Node Graph](/images/Siggraph_node_graph.jpg)
+ 
 ### Orange Sherbet Game Engine
 Cumulative project for the Game Engine Design course. C++11 and is OpenGL 4.0 based.
 
@@ -108,6 +121,15 @@ Procedural created lunar surface in RollerCoaster Tycoon 2 style
 
  ![Project Luna](/images/ProjectLuna_RC2_style.jpg)
 
+### Various High Performance Computing projects
+MPI, OpenMP, pthreads
+
+Simple projects, served to learn basic API concepts and hpc programming practices.
+
+Developed to run on the 100 node Tandy Supercomputer (no longer in operation) 
+
+-- [Source](https://github.com/cdgiessen/HighPerformanceProgrammingProjects) --
+
 ### USGS Survey Data Visualizer
 Loads and displays a USGS Survey data file
 
@@ -122,6 +144,7 @@ C++, fixed function OpenGL using FreeGLUT
  ![FreeGlutViewer](/images/FreeGlutViewer.png)
 
 ### Icosohedral Subdivision Sphere
+
 Automatic subdivision of icosoheron sphere
 
 Walkable planet with heightmap and texture mapping 
@@ -131,6 +154,8 @@ Written in C# & Unity3d
 -- [Source](https://github.com/cdgiessen/InnerEarth) --
 
  ![Icosohedron](/images/SubdividingIcosohedron.jpg)
+ 
+ * Youtube Video of WIP version [Link](https://youtu.be/gXtS96FRIDQ)
 
 ### Contour Line Visualizer
 Creates a contour map of a USGS GridFloat data file
