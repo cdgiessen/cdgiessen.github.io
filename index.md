@@ -8,120 +8,166 @@ I am a Software Engineer interested in programming and computer graphics. Curren
 
 ## Contact info
 
-cdgiessen@gmail.com
+Email: cdgiessen@gmail.com
+
+[Resume](https://docs.google.com/document/d/e/2PACX-1vT4mQric5vtSAWnsF_KnIaMveJqtV-d-VtADoXnIZKP-VlVXj8u5UAhoa8ceecBEeuaBwBbHCqkTWps/pub)
 
 [Github](https://github.com/cdgiessen)
 
 [LinkedIn](https://www.linkedin.com/in/charles-giessen-22976411a/)
 
-## Projects
+## Programming Projects
 
-### Vulkan Game Engine
+### Vulkan Game Engine​ 
 
- * Uses the new Vulkan graphics API for rendering
- * Asynchronous loading & preparation of data into GPU 
- * Infinite Terrain System with splatmap based texturing
+Designed around the new Vulkan graphics API. C++17. A testing ground for learning software techniques, game engine design, and exploring solutions for engineering problems.
+	
+##### Major Features:
+* Terrain Renderer​: Heightmap based with automatic level of detail adjustment using a Quadtree and Memory pool for quick allocation.
+
+* Procedural Noise Texture Generator​: Lets users create noise textures in a visual node graph editor and uses SIMD acceleration for caclulation.
+
+* Cross platform - CMake based, with both Windows and Linux Support​. Tested with both gcc and msvc.
+
+* Multitasking System​, (WIP) Thread pool based tasking system that enables task based multithreading of various jobs.
+
+* Frame Graph​, (WIP) Abstracts all rendering operations and resources into a single graph, enabling global reasoning about how a frame is rendered.
+
+* Physically based rendering, Uses the Cook-Torrance BRDF and currently only implements albedo, roughness, metalness, with normal mapping.
+
+-- [Source](https://github.com/cdgiessen/VulkanRenderer) --
+
+##### Screenshots
+
+Example Landscape
  ![Lanscape Example](/images/Siggraph_lanscape2.jpg)
-     
- * Terrain uses LOD for performance	
+
+Terrain Level of Detail
  ![Terrain LOD](/images/siggraph_terrain_lod.jpg)
-     
- * Physically Based Rendering
+
+PBR showcase
  ![PBR](/images/PBR_materials.jpg)
 
- * Normal Mapping 
- ![Normal_Mapping](/images/NormalMapping.jpg)
+### Pascal Compiler
+Project for the Compiler Construction course. C++17
 
- * Written in C++17
- * Libraries used: GLFW, Dear ImGui, Bullet Physics, glm, nlohman json, stb_image.h, FastNoiseSIMD, VulkanMemoryAllocator
- * [Source](https://github.com/cdgiessen/VulkanRenderer)
+Compiles a Pascal dialect, not standard Pascal
 
+The parsing method employed is Recusive Descent parsing.
 
-### Procedural Terrain Generator
- * Create infinite terrain 
- * Features a node based visual graph editor to create unique terrain algorithms
- * Implemented inside my Vulkan Game Engine
- * Written in C++17
- * [Source](https://github.com/cdgiessen/VulkanRenderer/tree/master/src/gui)
- 
- ![Node Graph](/images/Siggraph_node_graph.jpg)
- 
+Tokenizer is working; Parsing, AST generation, and LLVM integration for code gen in progress.
+
+-- [Source](/https://github.com/cdgiessen/pascal-compiler) --
+
 ### Orange Sherbet Game Engine
- * Project for my Game Engine course
- * Uses OpenGL 4.0
- * Loads .OBJ's and uses Phong based lighting
- * Libraries: GLEW, GLFW, stb_image.h, tinyobjloader, nlohmann json,
- * Written in C++
- * [Source](https://github.com/cdgiessen/OrangeSherbetGameEngine)
+Cumulative project for the Game Engine Design course. C++11 and is OpenGL 4.0 based.
+
+##### Features
+ * Phong Shading​, with diffure and specular texture sampling.
+ * Point, Direction, and Spot Lighting​, dynamic lighting of environment
+ * Custom Model Loading​, using Wavefront Obj’s with optional normal recalculation
+ * Transform Hierarchy​, Position, Rotation, and Scaling supported.
+
+-- [Source](https://github.com/cdgiessen/OrangeSherbetGameEngine) -- 
  
- ![Node Graph](/images/OSGE_lighting.jpg)
+Screenshot of exmple scene
+ ![OSGE](/images/OSGE_lighting.jpg)
 
 
 ### Charles Math Library
- * Simple math library built for 3d graphics
- * Vectors 2,3,4, Matrix 3x3,4x4, & Quaternions
- * Created for my Game Engine course,
- * Written in C++
- * [Source](https://github.com/cdgiessen/cml)
+Written in conjunction with the Orange Sherbert Game Engine
+
+Simple math library built for 3d graphics
+
+Vectors 2,3,4, Matrix 3x3,4x4, & Quaternions
+
+Written in C++
+
+-- [Source](https://github.com/cdgiessen/cml) --
  
 ### USGS Survey Data FPS Viewer
- * Loads and lets users walk around a USGS Survey Data file
- * Sample data is of Mt. Saint Helens
- * Uses OpenGL 3.3, GLFW, and GLEW
- * Written in C++11
- * [Source](https://github.com/cdgiessen/TerrainExplorer)
+Loads and lets users walk around a USGS GridFloat data file
+
+Sample data is of Mt. Saint Helens
+
+Uses OpenGL 3.3, GLFW, and GLEW
+
+Written in C++11
+
+-- [Source](https://github.com/cdgiessen/TerrainExplorer) --
  
  ![FPS cinematic](/images/TerrainFPS_cinematic.jpg)
  ![FPS overhead](/images/TerrainFPS_overhead.jpg)
 
 ### Project Luna
- * Unity 3d based RTS style colony builder
- * Procedural created lunar surface in RollerCoaster Tycoon 2 style
+Unity 3d based RTS style colony builder
+
+Procedural created lunar surface in RollerCoaster Tycoon 2 style
+
+-- [Source](https://github.com/cdgiessen/project-luna) --
+
  ![Project Luna](/images/ProjectLuna_RC2_style.jpg)
 
-
 ### USGS Survey Data Visualizer
- * Loads and displays a USGS Survey data file
- * Lets the viewer orbit the camera around the file
- * Able to change the color and gradient based on the height
- * Uses OpenGL 2.0 and FreeGLUT
- * Written in C++11
- * [Source](https://github.com/cdgiessen/FreeGlut-Terrain-Visualizer)
+Loads and displays a USGS Survey data file
+
+Lets the viewer orbit the camera around the file
+
+Able to change the color and gradient based on the height
+
+C++, fixed function OpenGL using FreeGLUT
+
+-- [Source](https://github.com/cdgiessen/FreeGlut-Terrain-Visualizer) --
 
  ![FreeGlutViewer](/images/FreeGlutViewer.png)
 
 ### Icosohedral Subdivision Sphere
- * Automatic subdivision of icosoheron sphere
- * Walkable planet
- * Written in C# & Unity3d
- * [Source](https://github.com/cdgiessen/InnerEarth)
+Automatic subdivision of icosoheron sphere
+
+Walkable planet with heightmap and texture mapping 
+
+Written in C# & Unity3d
+
+-- [Source](https://github.com/cdgiessen/InnerEarth) --
+
  ![Icosohedron](/images/SubdividingIcosohedron.jpg)
 
 ### Contour Line Visualizer
- * Creates a contour map of a USGS Survey Data File
- * Sample data is of Mt. Saint Helens
- * Written in C++11
- * [Source](https://github.com/cdgiessen/ContourLines)
+Creates a contour map of a USGS GridFloat data file
+
+Example data is of Mt. Saint Helens
+
+Written in C++
+
+-- [Source](https://github.com/cdgiessen/ContourLines) --
 
  ![Contour Lines](/images/contour_lines.png)
 
 
 ### Koch Snowflake
- * Draws a Koch Snowflake fractal
- * Simple intro to graphics project
- * Written in C++
- * [Source](https://github.com/cdgiessen/KochSnowflake) 
+Draws a Koch Snowflake fractal
+
+Written in C++
+
+-- [Source](https://github.com/cdgiessen/KochSnowflake) --
 
 ### PollPoll: Hackathon Project
- * Scrapes webdata of congresional voting for comparison
- * Written in Python
- * [Source](https://github.com/cdgiessen/pollpoll)
+Scrapes webdata of congresional voting for comparison
+
+Written in Python
  
+-- [Source](https://github.com/cdgiessen/pollpoll) -- 
+ 
+## Non-Programming Work
+
+
 ### 3d Modeling 
- * Took a 3d Modeling class and these are some of the final renders for it
- * Software: Maya 2017
+ Comfortable working in Maya 2017 and Blender 2.7. 
+
  ![Sewing](/images/maya_sewing_render.jpg)
+
  ![Train](/images/Maya_train_render.jpg)
+
 
 
 
