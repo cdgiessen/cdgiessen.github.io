@@ -12,7 +12,7 @@ I enjoy getting into the nitty-gritty details, high performance software, and ma
 
 Email: cdgiessen@gmail.com
 
-[Resume](Charles_Giessen_Resumes.pdf)
+[Resume](Charles_Giessen_Resume.pdf)
 
 [Github](https://github.com/cdgiessen)
 
